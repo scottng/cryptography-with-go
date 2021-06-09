@@ -37,7 +37,8 @@ size, AES must be used along with a mode of operation. Go's crypto/cipher packag
 
 ## Asymmetric Encryption
 ### Public Key Encryption
-* `asymmetric-encryption/public-key-encryption/public-key.go`    
+* `asymmetric-encryption/public-key-encryption/public-key.go`  
+
 This program applies public key encryption to an arbitrary file using the RSA implementation provided by Go's
 crypto/rsa. It takes as input the path to a file, encrypts and decrypts it, and prints the encryption and decryption time. 
 This was made to demonstrate one of the drawbacks of public key encryption: the slow speed of encryption of large files.  
@@ -45,13 +46,15 @@ This was made to demonstrate one of the drawbacks of public key encryption: the 
 A sample file is provided at `asymmetric-encryption/story.txt`.
 
 ### Hybrid Encryption
-* `asymmetric-encryption/hybrid-encryption/hybrid.go`    
+* `asymmetric-encryption/hybrid-encryption/hybrid.go`  
+
 This program takes as input the path to a file, encrypts and decrypts it, and prints the encryption and decryption time. 
 Compare the speed of hybrid key encryption with that of public key encryption.  
 
 A sample file is provided at `asymmetric-encryption/story.txt`.
 
 ### Digital Signatures
-* `asymmetric-encryption/digital-signature/signature.go`    
+* `asymmetric-encryption/digital-signature/signature.go`  
+
 This program takes as input the path to a file and outputs a digital signature and verification key on the file.
 This program can also verify a digital signature on a file.
