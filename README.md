@@ -2,7 +2,7 @@
 This repository contains programs that apply various cryptographic algorithms 
 using Go's crypto package. Each Go file is a stand-alone command line program. 
 
-**Disclaimer:** These are programming exercises and are not meant to be
+These are programming exercises and are not meant to be
 used in any secure application.
 
 ## Instructions
@@ -33,11 +33,11 @@ project use a block size of 128 bits. The AES implementation used is from Go's c
 
 Because AES is a block cipher, it can only encrypt a fixed amount of data. To encrypt data of arbitrary
 size, AES must be used along with a mode of operation. Go's crypto/cipher package provides several modes.
- In this project, I use CBC, CTR, GCM, and MAC modes from the crypto/cipher package.  
+ In this project, I use CBC, CTR, and GCM modes from the crypto/cipher package.  
 
 ## Asymmetric Encryption
 ### Public Key Encryption
-* `asymmetric-encryption/public-key-encryption/public-key.go`
+* `asymmetric-encryption/public-key-encryption/public-key.go`  
 This program applies public key encryption to an arbitrary file using the RSA implementation provided by Go's
 crypto/rsa. It takes as input the path to a file, encrypts and decrypts it, and prints the encryption and decryption time. 
 This was made to demonstrate one of the drawbacks of public key encryption: the slow speed of encryption of large files.  
