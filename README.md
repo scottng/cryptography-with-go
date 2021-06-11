@@ -3,7 +3,7 @@ This repository contains programs that apply various cryptographic algorithms
 using Go's crypto package. Each Go file is a stand-alone command line program. 
 
 <img src="https://github.com/scottng/cryptography-with-go/blob/main/images/demo.gif?raw=true" width="600"/>
-Encryption and decryption with AES-CBC.
+Encryption and decryption with AES-CBC.  
 
 These are programming exercises and are not meant to be
 used in any secure application.
